@@ -77,6 +77,16 @@ function clearStatusClass(element) {
 }
 
 const questions = [
+   {
+    question: 'Which year was the Telegram launched?',
+    answers: [
+      { text: '2013', correct: true},
+      { text: '2015', correct: false },
+      { text: '2008', correct: false },
+      { text: '2010', correct: false}
+    ]
+  },
+  
   {
     question: 'Which smartphone can not take 8k videos?',
     answers: [
